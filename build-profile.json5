@@ -1,6 +1,5 @@
 {
   "app": {
-    "signingConfigs": [],
     "products": [
       {
         "name": "default",
@@ -18,10 +17,25 @@
     ],
     "buildModeSet": [
       {
-        "name": "debug",
+        "name": "debug"
       },
       {
         "name": "release"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/zhaoyangyang/.ohos/config/default_ABRenewable_33RU2zmX2g8opGeoT4miGikcWULbHacdGxFCoqNy9mE=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A7051B6E11CA979FBE5359DE0E464033D312D239224F8AC85A3394F1C8239896005D8EEA49D07",
+          "profile": "/Users/zhaoyangyang/.ohos/config/default_ABRenewable_33RU2zmX2g8opGeoT4miGikcWULbHacdGxFCoqNy9mE=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/zhaoyangyang/.ohos/config/default_ABRenewable_33RU2zmX2g8opGeoT4miGikcWULbHacdGxFCoqNy9mE=.p12",
+          "storePassword": "0000001A3E225F53A50A37418D88C68FE0172E215297FCCF9719116084296474E6BAB2E124EDD724E11E"
+        }
       }
     ]
   },

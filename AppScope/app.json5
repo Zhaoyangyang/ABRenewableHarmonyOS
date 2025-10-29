@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.shaguai.abrenewable",
+    "bundleName": "com.shaguai.abrenewable.harmonyos",
     "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",

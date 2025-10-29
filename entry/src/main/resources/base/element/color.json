@@ -3,6 +3,9 @@
     {
       "name": "start_window_background",
       "value": "#FFFFFF"
+    },{
+      "name": "all_green",
+      "value": "#07C160"
     }
   ]
 }

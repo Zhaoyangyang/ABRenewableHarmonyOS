@@ -2,7 +2,35 @@
   "float": [
     {
       "name": "page_text_font_size",
-      "value": "50fp"
+      "value": "20fp"
+    },
+    {
+      "name": "title_margin_top",
+      "value": "40vp"
+    },
+    {
+      "name": "user_manual_font_size",
+      "value": "20vp"
+    },
+    {
+      "name": "10_vp",
+      "value": "10vp"
+    },
+    {
+      "name": "20_vp",
+      "value": "20vp"
+    },
+    {
+      "name": "25_vp",
+      "value": "25vp"
+    },
+    {
+      "name": "30_vp",
+      "value": "30vp"
+    },
+    {
+      "name": "50_vp",
+      "value": "50vp"
     }
   ]
 }

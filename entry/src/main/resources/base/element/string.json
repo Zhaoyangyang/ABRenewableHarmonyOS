@@ -11,6 +11,14 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "login_title",
+      "value": "欢迎来到掌上废品通"
+    },
+    {
+      "name": "user_manual",
+      "value": "用户手册"
     }
   ]
 }
