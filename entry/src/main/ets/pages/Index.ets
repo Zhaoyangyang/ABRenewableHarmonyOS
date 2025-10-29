@@ -16,7 +16,7 @@ struct Index {
           middle: { anchor: '__container__', align: HorizontalAlign.Center }
         })
         .margin({
-          top:100
+          top: 100
         })
 
       Column({ space: 20 }) {
@@ -45,7 +45,7 @@ struct Index {
           .height($r('app.float.50_vp'))
           .margin({ top: $r('app.float.20_vp') })
 
-      }
+      }.id('InputTextColumn')
       .alignRules({
         top: { anchor: 'HelloWorld', align: VerticalAlign.Bottom },
         middle: { anchor: '__container__', align: HorizontalAlign.Center }
@@ -54,8 +54,32 @@ struct Index {
         top: $r('app.float.30_vp'),
         left: $r('app.float.10_vp'),
         right: $r('app.float.10_vp')
-
       })
+
+      Row() {
+        Checkbox({ name: 'checkbox1', group: 'checkboxGroup' })
+          .width(18)
+          .height(18)
+          .select(false)
+          .selectedColor($r('app.color.all_green'))
+          .shape(CheckBoxShape.CIRCLE)
+          .onChange((value: boolean) => {
+            console.info('Checkbox1 change is' + value);
+          })
+
+        Text('已阅读并同意').fontColor(0x5C6273).fontSize(15)
+        Text(' 用户协议 ').fontColor(0x000000).fontSize(15)
+        Text('和').fontColor(0x5C6273).fontSize(15)
+        Text(' 隐私政策 ').fontColor(0x000000).fontSize(15)
+      }.alignRules({
+        top: { anchor: 'InputTextColumn', align: VerticalAlign.Bottom },
+        middle: { anchor: '__container__', align: HorizontalAlign.Center }
+      }).margin({
+        top: $r('app.float.10_vp'),
+        left: $r('app.float.10_vp'),
+        right: $r('app.float.10_vp')
+      })
+
 
       Row() {
 
